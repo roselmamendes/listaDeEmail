@@ -1,0 +1,59 @@
+
+    
+    <form>
+        
+        <table>
+            
+            <tbody>
+                
+                <tr>
+                    
+                   <td>  
+                     <label for="email">Email:</label>  
+                   </td>
+                    
+                   <td>                      
+                     <input name="email" id="email" type="email" required>  
+                   </td>
+                    
+                    <td>
+                        <a id="msgEmail"></a>
+                    </td>
+                    
+                </tr>
+                
+                <tr>
+                    
+                   <td>  
+                     <label for="senha">Senha:</label>  
+                   </td>
+                    
+                   <td>                      
+                     <input name="senha" id="senha" type="password" required>  
+                   </td>
+                    
+                    <td>
+                        <a id="msgSenha"></a>
+                    </td>
+                    
+                </tr>
+                
+            </tbody>            
+            
+        </table>
+        
+        <p>
+            <button onclick="salvarEmail()" type="button">Salvar
+            </button>
+            
+            <button onclick="cancelar()" type="button">Cancelar
+            </button>
+        </p>
+       
+        
+        <ul id="lista" data-role="listview" data-inset="true">
+      
+        </ul>
+        
+    </form>
+    
